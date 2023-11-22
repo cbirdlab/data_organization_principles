@@ -11,7 +11,7 @@
     Structured Data Collection: Design data collection methods (e.g., surveys, experiments) to align with tidy data principles.
     Data Entry Format: Use a consistent format for data entry (e.g., CSV, Excel, database systems) and define standards (e.g., date formats, categorical variable levels).
 
-3. Database Design and Implementation
+3. [Database Design and Implementation](database_design.md)
 
     Normalization: Design the database schema to reduce redundancy. Normalize data to at least the third normal form.
     Implement ACID Properties: Ensure database transactions are atomic, consistent, isolated, and durable.
