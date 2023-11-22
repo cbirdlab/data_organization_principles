@@ -54,10 +54,10 @@
 
 7. Diagram for Better Understanding
 
-Creating a simple Entity-Relationship Diagram (ERD) can help visualize the database structure. An ERD illustrates the relationships between entities (tables) in a database. Let's create a basic ERD for a hypothetical student database:
+   Creating a simple Entity-Relationship Diagram (ERD) can help visualize the database structure. An ERD illustrates the relationships between entities (tables) in a database. Let's create a basic ERD for a hypothetical student database:
 
-    Entities (Tables): Students, Courses, Enrollments.
-    Relationships:
+    * Entities (Tables): Students, Courses, Enrollments.
+    * Relationships:
         A student can enroll in many courses.
         A course can have many students.
 
