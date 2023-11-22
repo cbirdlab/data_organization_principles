@@ -33,17 +33,26 @@
         
 4. Implement ACID Properties
 
+   It's important to understand the definition of a transaction in the context of a database.  A transaction in a database system symbolizes a unit of work performed within a database management system against a database, and treated in a coherent and reliable way independent of other transactions. e.g. A bank transfer operation from one account to another involves multiple steps (debit from one account, credit to another). All these steps collectively form a transaction. In the context of our lab, a transaction might be the logging of a single sampling event on a particular date at a particular time.  
+
     * _Atomicity_: Each transaction is treated as a single unit, which either succeeds completely or fails completely.
     * _Consistency_: Transactions should transform the database from one valid state to another valid state, maintaining data integrity.
     * _Isolation_: Transactions are performed independently and transparently.
     * _Durability_: Once a transaction is committed, it remains so, even in the event of a system failure.
 
-5. Define Data Types and Constraints
+6. Define Data Types and Constraints
 
     * _Data Types_: Choose appropriate data types for each column (e.g., INTEGER, VARCHAR, DATE).
     * _Constraints_: Define rules to maintain data integrity (e.g., PRIMARY KEY, FOREIGN KEY, NOT NULL, UNIQUE).
+       * _Definition_: Constraints in a database are rules or limits that define the way data can be inserted, updated, or deleted from tables. They are used to maintain the accuracy and integrity of the data.
+       * Types:
+          * Primary Key: A column that uniquely identifies each row in a table.
+          * Foreign Key: A column that establishes a relationship between two tables by connecting a row to a primary key in another table
+          * Unique: Ensures that all values in a column are different.
+          * Not Null: Ensures that a column cannot have a NULL value.
+          * Check: Ensures that all values in a column satisfy a specific condition.
 
-6. Diagram for Better Understanding
+7. Diagram for Better Understanding
 
 Creating a simple Entity-Relationship Diagram (ERD) can help visualize the database structure. An ERD illustrates the relationships between entities (tables) in a database. Let's create a basic ERD for a hypothetical student database:
 
