@@ -4,19 +4,19 @@ By carefully planning and standardizing the data collection and entry process, y
 
 ## Structured Data Collection
 
-    * Alignment with Tidy Data Principles: Ensure that each variable forms a column, each observation forms a row, and each type of observational unit forms a table.
-    * Designing Data Collection Methods:
-        * Surveys:
-            * Design surveys with clearly defined questions that correspond to individual variables.
-            * Use consistent question formats to facilitate easy data entry and analysis.
-            * For multiple-choice questions, pre-define the categories and ensure they are mutually exclusive.
-        * Experiments:
-            * Plan experiments by defining variables and measurements clearly.
-            * Ensure that data collection is systematic; for instance, if collecting time series data, measurements should be taken at regular intervals.
-            * Record metadata (data about data) like experimental conditions, date and time of experiments, and instrument settings.
-    * Data Collection Tools:
-        * Use digital tools for automated data collection where possible (e.g., online survey platforms, data logging software).
-        * Ensure these tools are configured to output data in a structured, tidy format.
+   * Alignment with Tidy Data Principles: Ensure that each variable forms a column, each observation forms a row, and each type of observational unit forms a table.
+   * Designing Data Collection Methods:
+      * Surveys:
+        * Design surveys with clearly defined questions that correspond to individual variables.
+         * Use consistent question formats to facilitate easy data entry and analysis.
+         * For multiple-choice questions, pre-define the categories and ensure they are mutually exclusive.
+     * Experiments:
+       * Plan experiments by defining variables and measurements clearly.
+         * Ensure that data collection is systematic; for instance, if collecting time series data, measurements should be taken at regular intervals.
+         * Record metadata (data about data) like experimental conditions, date and time of experiments, and instrument settings.
+   * Data Collection Tools:
+      * Use digital tools for automated data collection where possible (e.g., online survey platforms, data logging software).
+     * Ensure these tools are configured to output data in a structured, tidy format.
 
 ## Data Entry Format
 
