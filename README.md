@@ -6,7 +6,7 @@
     * Define Variables: Clearly define each variable you plan to collect, ensuring each represents a single concept.
     * Plan for Scalability: Anticipate the volume of data and plan for scalability from the start.
 
-2. Data Collection and Entry
+2. [Data Collection and Entry](data_collection_entry.md)
 
     * Structured Data Collection: Design data collection methods (e.g., surveys, experiments) to align with tidy data principles.
     * Data Entry Format: Use a consistent format for data entry (e.g., CSV, Excel, database systems) and define standards (e.g., date formats, categorical variable levels).
